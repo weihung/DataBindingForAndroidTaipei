@@ -5,6 +5,7 @@ import android.view.View;
 
 import com.example.databindinglibrary.databinding.ItemUserBinding;
 
+
 /**
  * Created by weihung on 16/8/4.
  */

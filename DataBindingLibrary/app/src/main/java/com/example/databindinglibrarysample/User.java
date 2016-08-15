@@ -10,5 +10,8 @@ public class User {
     private boolean showAge;
 
     // TODO add Constructor
+
     // TODO add setter && getter
+
+    // TODO ADD onClick
 }

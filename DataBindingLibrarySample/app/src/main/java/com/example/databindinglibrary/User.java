@@ -1,7 +1,8 @@
 package com.example.databindinglibrary;
 
-import android.util.Log;
 import android.view.View;
+import android.widget.TextView;
+import android.widget.Toast;
 
 /**
  * Created by weihung on 16/8/3.
@@ -51,7 +52,8 @@ public class User {
         this.showAge = showAge;
     }
 
-    public void onClickText(View view) {
-        Log.d("Click", view.getClass().getSimpleName());
+    public void onClickName(View view) {
+        Toast.makeText(view.getContext(), ((TextView) view).getText(), Toast.LENGTH_SHORT).show();
     }
+
 }
